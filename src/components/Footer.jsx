@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Socials from './Socials';
 
 const Footer = () => {
     return (
         <footer>
+            <Socials />
             <div className="container">
                 <div className="menu__wrapper">
                     <Link to="/inicio">Inicio</Link>

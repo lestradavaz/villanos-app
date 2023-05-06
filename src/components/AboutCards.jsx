@@ -1,5 +1,6 @@
 import React from 'react';
 import { SimpleCard } from '../components';
+import { objects } from '../constants';
 
 const AboutCards = () => {
     return (
@@ -10,21 +11,14 @@ const AboutCards = () => {
             </div>
             <div className="cards-wrapper">
                 <div className="container container--cards">
-                    <SimpleCard
-                        title="Lorem ipsum"
-                        desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A labore tenetur facilis nulla ut ullam architecto expedita maxime velit alias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. A labore tenetur facilis nulla ut ullam architecto expedita maxime velit alias."
-                        icon="info"
-                    />
-                    <SimpleCard
-                        title="Lorem ipsum"
-                        desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A labore tenetur facilis nulla ut ullam architecto expedita maxime velit alias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. A labore tenetur facilis nulla ut ullam architecto expedita maxime velit alias."
-                        icon="info"
-                    />
-                    <SimpleCard
-                        title="Lorem ipsum"
-                        desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A labore tenetur facilis nulla ut ullam architecto expedita maxime velit alias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. A labore tenetur facilis nulla ut ullam architecto expedita maxime velit alias."
-                        icon="info"
-                    />
+                    {objects.aboutUsCards.map((card) => (
+                        <SimpleCard
+                            key={card.id}
+                            title={card.title}
+                            desc={card.desc}
+                            icon={card.icon}
+                        />
+                    ))}
                 </div>
             </div>
         </div>

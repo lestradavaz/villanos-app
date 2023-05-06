@@ -9,7 +9,6 @@ const App = () => {
         <>
             <BrowserRouter>
                 <Navbar />
-                <Socials />
                 <GoTopButton />
                 <Routes>
                     <Route
