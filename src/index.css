@@ -573,6 +573,28 @@ footer .container > p {
     line-height: 1;
 }
 
+.modal[open] {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background: #444;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem 3rem;
+    outline: unset;
+    border: unset;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 @media screen and (max-width: 1024px) {
     header {
         padding: 1rem 2rem;
