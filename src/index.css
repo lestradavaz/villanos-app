@@ -280,6 +280,10 @@ footer .container > p {
     }
 }
 
+#homeCards {
+    min-height: 100vh;
+}
+
 .btn:hover {
     background: #a7e402;
 }
@@ -287,7 +291,7 @@ footer .container > p {
 .socials__wrapper {
     position: fixed;
     top: 15vh;
-    right: 5vw;
+    right: -10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -466,25 +470,26 @@ footer .container > p {
     height: fit-content;
 }
 
-#nosotros .cards-wrapper .card--simple {
+.cards-wrapper .card--simple {
     padding: 3rem;
 }
 
-#nosotros .cards-wrapper .card--simple * {
+.cards-wrapper .card--simple .card__info {
     padding: 0;
 }
 
-#nosotros .card--simple .card__title {
+.card--simple .card__title {
     color: #bdff00;
     font-style: italic;
 }
 
-#nosotros .card--simple .card__desc {
+.card--simple .card__desc {
     text-align: center;
 }
 
-#nosotros .cards-wrapper .card--simple .material-icons {
+.card--simple .material-icons {
     font-size: 8rem;
+    margin-bottom: 1rem;
 }
 
 #aboutCards > .container > h3 {
@@ -682,7 +687,7 @@ dialog::backdrop {
     }
 
     footer .container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 2rem;
     }
 
@@ -699,15 +704,14 @@ dialog::backdrop {
     }
 
     footer .socials__wrapper {
+        position: unset;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .goTopBtn {
         right: 3rem;
         bottom: 3rem;
-    }
-
-    .socials__wrapper {
-        display: none;
     }
 
     #aboutUs {

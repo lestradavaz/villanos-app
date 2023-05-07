@@ -5,7 +5,6 @@ import Socials from './Socials';
 const Footer = () => {
     return (
         <footer>
-            <Socials />
             <div className="container">
                 <div className="menu__wrapper">
                     <Link to="/inicio">Inicio</Link>
@@ -21,6 +20,7 @@ const Footer = () => {
                     Residencial arbolada <br />
                     +52 55 2727 0286
                 </p>
+                <Socials />
             </div>
         </footer>
     );

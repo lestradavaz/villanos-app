@@ -35,24 +35,21 @@ export const objects = {
     homeCards: [
         {
             id: 1,
-            img: 'img.jpg',
+            icon: 'info',
             title: 'Misión',
-            desc: 'Nuestra misión es crear un ambiente donde los jugadores puedan desarrollar todo su potencial atlético y personal, mientras se esfuerzan por alcanzar el éxito deportivo y contribuyen a la comunidad a través del servicio y la responsabilidad social.',
-            btn: false
+            desc: 'Nuestra misión es crear un ambiente donde los jugadores puedan desarrollar todo su potencial atlético y personal, mientras se esfuerzan por alcanzar el éxito deportivo y contribuyen a la comunidad a través del servicio y la responsabilidad social.'
         },
         {
             id: 2,
-            img: 'img.jpg',
+            icon: 'info',
             title: 'Visión',
-            desc: 'Ser un equipo de fútbol americano de élite que sea reconocido por su excelencia deportiva y su compromiso con la comunidad.',
-            btn: false
+            desc: 'Ser un equipo de fútbol americano de élite que sea reconocido por su excelencia deportiva y su compromiso con la comunidad.'
         },
         {
             id: 3,
-            img: 'img.jpg',
+            icon: 'info',
             title: 'Filosofía',
-            desc: 'Fomentar la unión, el esfuerzo constante y la madurez para vivir las victorias y las derrotas dentro y fuera del campo de juego.',
-            btn: false
+            desc: 'Fomentar la unión, el esfuerzo constante y la madurez para vivir las victorias y las derrotas dentro y fuera del campo de juego.'
         }
     ]
 };
