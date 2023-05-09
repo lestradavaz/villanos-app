@@ -11,6 +11,7 @@ const AboutUs = () => {
                     bases y fundamentos de este deporte a nuestros jugadores y
                     procuramos siempre la mejora continua dentro del equipo.
                 </p>
+                <br />
                 <p>
                     Buscamos mantener una excelente reputación dentro y fuera
                     del campo, siendo modelos a seguir en la comunidad.
