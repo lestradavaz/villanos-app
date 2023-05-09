@@ -470,6 +470,17 @@ footer .container > p {
     height: fit-content;
 }
 
+#nosotros .container--cards {
+    display: flex;
+    flex-direction: column;
+}
+
+#nosotros .container--cards .card--simple {
+    min-height: 5rem;
+    flex-direction: row;
+    gap: 3rem;
+}
+
 .cards-wrapper .card--simple {
     padding: 3rem;
 }
@@ -490,6 +501,18 @@ footer .container > p {
 .card--simple .material-icons {
     font-size: 8rem;
     margin-bottom: 1rem;
+}
+
+#nosotros .container--cards .card--simple .material-icons {
+    margin: 0;
+}
+
+#nosotros .container--cards .card--simple .card__info {
+    align-items: flex-start;
+}
+
+#nosotros .container--cards .card--simple .card__info > * {
+    text-align: start;
 }
 
 #aboutCards > .container > h3 {
@@ -781,6 +804,18 @@ dialog::backdrop {
         font-size: 1.25rem;
         text-align: center;
         margin-bottom: 2rem;
+    }
+
+    #nosotros .container--cards .card--simple {
+        flex-direction: column;
+    }
+
+    #nosotros .container--cards .card--simple .card__info {
+        align-items: center;
+    }
+
+    #nosotros .container--cards .card--simple .card__info > * {
+        text-align: center;
     }
 
     #contact {
