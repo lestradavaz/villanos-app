@@ -7,9 +7,9 @@ const Footer = () => {
         <footer>
             <div className="container">
                 <div className="menu__wrapper">
-                    <Link to="/inicio">Inicio</Link>
-                    <Link to="/nosotros">Nosotros</Link>
-                    <Link to="/contacto">Contacto</Link>
+                    <a href="/inicio">Inicio</a>
+                    <a href="/nosotros">Nosotros</a>
+                    <a href="/contacto">Contacto</a>
                 </div>
                 <div className="footer__info">
                     <span>Villanos Cancún 2023.</span>
