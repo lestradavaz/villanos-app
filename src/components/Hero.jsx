@@ -13,7 +13,7 @@ const Hero = () => {
                 <p>
                     Sitio oficial de la organización Villanos México, equipo
                     orgullosamente mexicano dedicado a la asesoría y
-                    entrenamiento de equipos de alto rendimiento.
+                    entrenamiento de equipos de futbol americano.
                 </p>
                 <a href="#homeCards" className="btn">
                     Conócenos
